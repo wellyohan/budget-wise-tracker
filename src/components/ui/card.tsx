@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae94c20 (Enregistrement des donnees)
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
@@ -21,11 +25,15 @@ const CardHeader = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
+<<<<<<< HEAD
   <div
     ref={ref}
     className={cn("flex flex-col space-y-1.5 p-6", className)}
     {...props}
   />
+=======
+  <div ref={ref} className={cn("flex flex-col space-y-1.5 p-6", className)} {...props} />
+>>>>>>> ae94c20 (Enregistrement des donnees)
 ))
 CardHeader.displayName = "CardHeader"
 
@@ -68,11 +76,15 @@ const CardFooter = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
+<<<<<<< HEAD
   <div
     ref={ref}
     className={cn("flex items-center p-6 pt-0", className)}
     {...props}
   />
+=======
+  <div ref={ref} className={cn("flex items-center p-6 pt-0", className)} {...props} />
+>>>>>>> ae94c20 (Enregistrement des donnees)
 ))
 CardFooter.displayName = "CardFooter"
 

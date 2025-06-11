@@ -9,7 +9,236 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
+<<<<<<< HEAD
       [_ in never]: never
+=======
+      budgets: {
+        Row: {
+          created_at: string | null
+          id: string
+          month: number
+          total_amount: number
+          user_id: string | null
+          year: number
+        }
+        Insert: {
+          created_at?: string | null
+          id?: string
+          month: number
+          total_amount: number
+          user_id?: string | null
+          year: number
+        }
+        Update: {
+          created_at?: string | null
+          id?: string
+          month?: number
+          total_amount?: number
+          user_id?: string | null
+          year?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "budgets_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      categories: {
+        Row: {
+          allocated_amount: number
+          budget_id: string | null
+          created_at: string | null
+          id: string
+          name: string
+          spent_amount: number | null
+          user_id: string | null
+        }
+        Insert: {
+          allocated_amount: number
+          budget_id?: string | null
+          created_at?: string | null
+          id?: string
+          name: string
+          spent_amount?: number | null
+          user_id?: string | null
+        }
+        Update: {
+          allocated_amount?: number
+          budget_id?: string | null
+          created_at?: string | null
+          id?: string
+          name?: string
+          spent_amount?: number | null
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "categories_budget_id_fkey"
+            columns: ["budget_id"]
+            isOneToOne: false
+            referencedRelation: "budgets"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "categories_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      questionnaire_responses: {
+        Row: {
+          annual_goal: string | null
+          created_at: string | null
+          financial_education: string | null
+          id: string
+          income_source: string | null
+          investment_preference: string | null
+          main_expenses: string | null
+          monthly_income: string | null
+          monthly_savings: string | null
+          user_id: string | null
+        }
+        Insert: {
+          annual_goal?: string | null
+          created_at?: string | null
+          financial_education?: string | null
+          id?: string
+          income_source?: string | null
+          investment_preference?: string | null
+          main_expenses?: string | null
+          monthly_income?: string | null
+          monthly_savings?: string | null
+          user_id?: string | null
+        }
+        Update: {
+          annual_goal?: string | null
+          created_at?: string | null
+          financial_education?: string | null
+          id?: string
+          income_source?: string | null
+          investment_preference?: string | null
+          main_expenses?: string | null
+          monthly_income?: string | null
+          monthly_savings?: string | null
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "questionnaire_responses_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      transactions: {
+        Row: {
+          amount: number
+          category_id: string | null
+          created_at: string | null
+          description: string | null
+          id: string
+          transaction_date: string
+          user_id: string | null
+        }
+        Insert: {
+          amount: number
+          category_id?: string | null
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          transaction_date: string
+          user_id?: string | null
+        }
+        Update: {
+          amount?: number
+          category_id?: string | null
+          created_at?: string | null
+          description?: string | null
+          id?: string
+          transaction_date?: string
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "transactions_category_id_fkey"
+            columns: ["category_id"]
+            isOneToOne: false
+            referencedRelation: "categories"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "transactions_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      users: {
+        Row: {
+          city: string | null
+          country: string | null
+          created_at: string | null
+          email: string
+          first_name: string
+          id: string
+          id_document: string | null
+          is_admin: boolean | null
+          last_name: string
+          password_hash: string
+          phone: string | null
+          profile_photo: string | null
+          questionnaire_completed: boolean | null
+          region: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          city?: string | null
+          country?: string | null
+          created_at?: string | null
+          email: string
+          first_name: string
+          id?: string
+          id_document?: string | null
+          is_admin?: boolean | null
+          last_name: string
+          password_hash: string
+          phone?: string | null
+          profile_photo?: string | null
+          questionnaire_completed?: boolean | null
+          region?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          city?: string | null
+          country?: string | null
+          created_at?: string | null
+          email?: string
+          first_name?: string
+          id?: string
+          id_document?: string | null
+          is_admin?: boolean | null
+          last_name?: string
+          password_hash?: string
+          phone?: string | null
+          profile_photo?: string | null
+          questionnaire_completed?: boolean | null
+          region?: string | null
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+>>>>>>> ae94c20 (Enregistrement des donnees)
     }
     Views: {
       [_ in never]: never

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae94c20 (Enregistrement des donnees)
 import * as React from "react"
 import * as ProgressPrimitive from "@radix-ui/react-progress"
 

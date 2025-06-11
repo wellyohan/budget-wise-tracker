@@ -2,7 +2,11 @@
 
 ## Project info
 
+<<<<<<< HEAD
 **URL**: https://lovable.dev/projects/b73da2f0-a635-4b42-a9e2-124f9c048292
+=======
+**URL**: https://lovable.dev/projects/fc91895b-9a18-4e83-83bf-52244c076b5a
+>>>>>>> ae94c20 (Enregistrement des donnees)
 
 ## How can I edit this code?
 
@@ -10,7 +14,11 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
+<<<<<<< HEAD
 Simply visit the [Lovable Project](https://lovable.dev/projects/b73da2f0-a635-4b42-a9e2-124f9c048292) and start prompting.
+=======
+Simply visit the [Lovable Project](https://lovable.dev/projects/fc91895b-9a18-4e83-83bf-52244c076b5a) and start prompting.
+>>>>>>> ae94c20 (Enregistrement des donnees)
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -62,7 +70,11 @@ This project is built with:
 
 ## How can I deploy this project?
 
+<<<<<<< HEAD
 Simply open [Lovable](https://lovable.dev/projects/b73da2f0-a635-4b42-a9e2-124f9c048292) and click on Share -> Publish.
+=======
+Simply open [Lovable](https://lovable.dev/projects/fc91895b-9a18-4e83-83bf-52244c076b5a) and click on Share -> Publish.
+>>>>>>> ae94c20 (Enregistrement des donnees)
 
 ## Can I connect a custom domain to my Lovable project?
 

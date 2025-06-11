@@ -1,9 +1,14 @@
 
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+>>>>>>> ae94c20 (Enregistrement des donnees)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+<<<<<<< HEAD
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -189,3 +194,267 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
 }
+=======
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Charte graphique professionnelle - 3 couleurs principales */
+:root {
+  /* Couleur principale - Bleu professionnel */
+  --primary-blue: #1e40af;
+  --primary-blue-light: #3b82f6;
+  --primary-blue-dark: #1e3a8a;
+  
+  /* Couleur secondaire - Gris ardoise */
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+  
+  /* Couleur d'accent - Blanc pur */
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  
+  /* Dégradés professionnels */
+  --gradient-primary: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--slate-600) 0%, var(--slate-700) 100%);
+  --gradient-subtle: linear-gradient(135deg, var(--slate-50) 0%, var(--white) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.9) 100%);
+}
+
+/* Override default border radius for more rounded elements */
+@layer utilities {
+  .rounded-default {
+    border-radius: 1rem;
+  }
+  
+  .rounded-card {
+    border-radius: 1.25rem;
+  }
+  
+  .rounded-button {
+    border-radius: 0.75rem;
+  }
+  
+  .rounded-input {
+    border-radius: 0.75rem;
+  }
+}
+
+/* Animations optimisées */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-delay {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes pulse-professional {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(30, 64, 175, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(30, 64, 175, 0.5);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Classes d'animation */
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-fade-in-delay {
+  animation: fade-in-delay 1.2s ease-out;
+}
+
+.animate-slide-down {
+  animation: slide-down 0.8s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.8s ease-out;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.5s ease-out;
+}
+
+.animate-float-gentle {
+  animation: float-gentle 3s ease-in-out infinite;
+}
+
+.animate-loading-bar {
+  animation: loading-bar 2s ease-out;
+}
+
+.animate-pulse-professional {
+  animation: pulse-professional 2s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+/* Transitions fluides pour les éléments interactifs */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Effet glassmorphism professionnel */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.3);
+}
+
+/* Global rounded corners override */
+.rounded, .rounded-md {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.rounded-xl {
+  border-radius: 1.25rem !important;
+}
+
+.rounded-2xl {
+  border-radius: 1.5rem !important;
+}
+
+/* Classes utilitaires pour la charte graphique */
+.bg-gradient-primary {
+  background: var(--gradient-primary);
+}
+
+.bg-gradient-secondary {
+  background: var(--gradient-secondary);
+}
+
+.bg-gradient-subtle {
+  background: var(--gradient-subtle);
+}
+
+.bg-gradient-card {
+  background: var(--gradient-card);
+}
+
+.text-primary-blue {
+  color: var(--primary-blue);
+}
+
+.text-slate {
+  color: var(--slate-600);
+}
+
+.border-slate {
+  border-color: var(--slate-200);
+}
+
+/* Hover effects professionnels */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(30, 64, 175, 0.15);
+}
+>>>>>>> ae94c20 (Enregistrement des donnees)
