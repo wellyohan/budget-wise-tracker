@@ -1,15 +1,22 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+
+>>>>>>> a6d403c (Initial state before Replit.dev)
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Index from "./pages/Index";
 =======
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
 import { AuthProvider } from "@/contexts/AuthContext";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { useLoadingScreen } from "@/hooks/useLoadingScreen";
@@ -19,11 +26,15 @@ import Dashboard from "./pages/Dashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import Demo from "./pages/Demo";
 import FinancialQuestionnaire from "./components/FinancialQuestionnaire";
+<<<<<<< HEAD
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -38,6 +49,8 @@ const App = () => (
         </Routes>
       </BrowserRouter>
 =======
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
 const AppContent = () => {
   const { isLoading, skipLoading } = useLoadingScreen();
 
@@ -68,7 +81,10 @@ const App = () => (
         <Sonner />
         <AppContent />
       </AuthProvider>
+<<<<<<< HEAD
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
     </TooltipProvider>
   </QueryClientProvider>
 );

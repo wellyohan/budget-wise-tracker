@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -221,6 +222,8 @@ const Index = () => {
         </main>
       </div>
 =======
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -403,7 +406,10 @@ const Index = () => {
           </div>
         </div>
       </footer>
+<<<<<<< HEAD
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
     </div>
   );
 };

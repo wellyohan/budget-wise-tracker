@@ -1,2 +1,11 @@
 - flask
+<<<<<<< HEAD
 - plotly
+=======
+- plotly
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- sckit-learn
+>>>>>>> a6d403c (Initial state before Replit.dev)

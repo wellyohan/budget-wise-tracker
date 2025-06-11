@@ -10,8 +10,11 @@ export type Database = {
   public: {
     Tables: {
 <<<<<<< HEAD
+<<<<<<< HEAD
       [_ in never]: never
 =======
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
       budgets: {
         Row: {
           created_at: string | null
@@ -238,7 +241,10 @@ export type Database = {
         }
         Relationships: []
       }
+<<<<<<< HEAD
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
     }
     Views: {
       [_ in never]: never

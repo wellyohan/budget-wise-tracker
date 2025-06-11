@@ -3,15 +3,20 @@
 ## Project info
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **URL**: https://lovable.dev/projects/b73da2f0-a635-4b42-a9e2-124f9c048292
 =======
 **URL**: https://lovable.dev/projects/fc91895b-9a18-4e83-83bf-52244c076b5a
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+
+>>>>>>> a6d403c (Initial state before Replit.dev)
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
+<<<<<<< HEAD
 **Use Lovable**
 
 <<<<<<< HEAD
@@ -25,6 +30,11 @@ Changes made via Lovable will be committed automatically to this repo.
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+=======
+
+**Use your preferred IDE**
+
+>>>>>>> a6d403c (Initial state before Replit.dev)
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -71,15 +81,21 @@ This project is built with:
 ## How can I deploy this project?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Simply open [Lovable](https://lovable.dev/projects/b73da2f0-a635-4b42-a9e2-124f9c048292) and click on Share -> Publish.
 =======
 Simply open [Lovable](https://lovable.dev/projects/fc91895b-9a18-4e83-83bf-52244c076b5a) and click on Share -> Publish.
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
 
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
 
+<<<<<<< HEAD
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)

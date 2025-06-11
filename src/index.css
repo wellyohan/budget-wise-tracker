@@ -1,13 +1,18 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+>>>>>>> a6d403c (Initial state before Replit.dev)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+<<<<<<< HEAD
 <<<<<<< HEAD
   :root {
     --background: 0 0% 100%;
@@ -195,6 +200,8 @@
   }
 }
 =======
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)
   * {
     @apply border-border;
   }
@@ -457,4 +464,7 @@
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(30, 64, 175, 0.15);
 }
+<<<<<<< HEAD
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+>>>>>>> a6d403c (Initial state before Replit.dev)

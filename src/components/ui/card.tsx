@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+
+>>>>>>> a6d403c (Initial state before Replit.dev)
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
@@ -26,6 +30,7 @@ const CardHeader = React.forwardRef<
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
 <<<<<<< HEAD
+<<<<<<< HEAD
   <div
     ref={ref}
     className={cn("flex flex-col space-y-1.5 p-6", className)}
@@ -34,6 +39,9 @@ const CardHeader = React.forwardRef<
 =======
   <div ref={ref} className={cn("flex flex-col space-y-1.5 p-6", className)} {...props} />
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+  <div ref={ref} className={cn("flex flex-col space-y-1.5 p-6", className)} {...props} />
+>>>>>>> a6d403c (Initial state before Replit.dev)
 ))
 CardHeader.displayName = "CardHeader"
 
@@ -77,6 +85,7 @@ const CardFooter = React.forwardRef<
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
 <<<<<<< HEAD
+<<<<<<< HEAD
   <div
     ref={ref}
     className={cn("flex items-center p-6 pt-0", className)}
@@ -85,6 +94,9 @@ const CardFooter = React.forwardRef<
 =======
   <div ref={ref} className={cn("flex items-center p-6 pt-0", className)} {...props} />
 >>>>>>> ae94c20 (Enregistrement des donnees)
+=======
+  <div ref={ref} className={cn("flex items-center p-6 pt-0", className)} {...props} />
+>>>>>>> a6d403c (Initial state before Replit.dev)
 ))
 CardFooter.displayName = "CardFooter"
 
